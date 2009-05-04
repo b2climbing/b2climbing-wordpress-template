@@ -9,10 +9,8 @@
 				
 				the_category(', ');
 				
-				if($post->comment_count > 0) { 
-						echo ' &nbsp;|&nbsp; ';
-						comments_popup_link('', '1 Comment', '% Comments'); 
-				}
+				echo ' &nbsp;|&nbsp; ';
+				comments_popup_link('Leave a comment', '1 Comment', '% Comments'); 
 				
 				edit_post_link('Edit', ' &nbsp;|&nbsp; ', '');
 			?>
