@@ -24,11 +24,21 @@ body {
   position: absolute;
   padding-bottom: 18px;
   min-height: 100%;
+  width: 100%;
 }
 
 #page {
   border: none;
   background: none;
+  width: 100%;
+}
+
+#maincontent {
+  width: 70%;
+}
+
+#sidebar {
+  width: 30%;
 }
 
 #maincontent h2 {

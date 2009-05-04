@@ -6,7 +6,7 @@
 body 	{  margin-bottom: 0; margin-top: 0; }
 
 /* Blueprint width setting */
-.container 	{ width: 820px; padding-top: 10px; }			
+.container 	{ padding-top: 10px; }			
 
 #page {
 	border-left: 1px solid #CCC;
