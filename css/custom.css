@@ -1,0 +1,65 @@
+body {
+  background: #FFF url('../images/left_background.png') repeat-y
+}
+
+.twitter {
+  background-image: url('../images/twitter.png');
+  background-repeat: no-repeat;
+  background-position: 1px;
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #DCDCDC;
+  border: 1px dotted #999;
+}
+
+#header {
+  display: none;
+}
+
+#parent-container {
+  background-image: url('../images/right_background.png');
+  background-position: right;
+  background-repeat: repeat-y;
+  position: absolute;
+  padding-bottom: 18px;
+  min-height: 100%;
+}
+
+#page {
+  border: none;
+  background: none;
+}
+
+#maincontent h2 {
+  border: none;
+}
+
+.container {
+  padding-top: 10px;
+  margin-left: 300px;
+  padding: 0;
+  padding-right: 135px;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 36px;
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 120px;
+}
+
+#nav {
+  position: absolute;
+  left: 62px;
+  top: 200px;
+}
+
+#nav ul,
+#subnav ul    { margin: 0; padding: 0; list-style: none; }
+
+#nav li a,
+#subnav li a  { color: #F2FFDF; float: left; text-decoration: none; }
